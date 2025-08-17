@@ -1,0 +1,124 @@
+/* General Page Styles */
+.service-details {
+    background-color: #f5f5dc; /* Beige background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333333; /* Dark text for good contrast */
+  }
+  
+  /* Heading Styles */
+  .service-details h1 {
+    font-size: 2.5rem;
+    color: #333333; /* Darker text for the title */
+    margin-bottom: 20px;
+  }
+  
+  .service-details h2 {
+    font-size: 1.8rem;
+    color: #444444; /* Slightly lighter dark text */
+    margin: 15px 0;
+  }
+  
+  .service-details h3 {
+    font-size: 1.5rem;
+    color: #555555; /* Subtle contrast */
+  }
+  
+  /* Calendar Styles */
+  .react-calendar {
+    background-color: #ffffff; /* White calendar background */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-calendar__tile {
+    font-size: 1rem;
+    color: #333333;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #008080; /* Teal for selected date */
+    color: #ffffff; /* White text */
+  }
+  
+  /* Options List */
+  .service-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .service-details li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333333;
+  }
+  
+  .service-details label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .service-details input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #008080; /* Teal checkboxes */
+  }
+  
+  /* Timings Section */
+  .timings {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .timings label {
+    font-size: 1.1rem;
+    color: #333333;
+  }
+  
+  .timings input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #008080; /* Teal button */
+    color: #ffffff; /* White text */
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005757; /* Darker teal on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .service-details {
+      padding: 10px;
+    }
+  
+    .timings input[type="text"] {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
